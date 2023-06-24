@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a8ef670266a8e8e1225b0bafd048703c",
+    "packages": [
+        {
+            "name": "lighter/framework",
+            "version": "v0.1.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fadyelgendy/framework.git",
+                "reference": "1c647161fcc8d1dfa77ceec24f63c5446b66d5f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fadyelgendy/framework/zipball/1c647161fcc8d1dfa77ceec24f63c5446b66d5f4",
+                "reference": "1c647161fcc8d1dfa77ceec24f63c5446b66d5f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/Helpers/helpers.php"
+                ],
+                "psr-4": {
+                    "Lighter\\Framework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fady Elgendy",
+                    "email": "fadyelgendy2017@gmail.com"
+                }
+            ],
+            "description": "Fast, reliable and easy to learn MVC PHP framework.",
+            "support": {
+                "issues": "https://github.com/fadyelgendy/framework/issues",
+                "source": "https://github.com/fadyelgendy/framework/tree/v0.1"
+            },
+            "time": "2023-06-24T13:05:27+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

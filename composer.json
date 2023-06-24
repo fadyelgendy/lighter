@@ -1,0 +1,22 @@
+{
+    "name": "lighter/lighter",
+    "description": "Starting skeleton for Lighter framework App.",
+    "type": "project",
+    "keywords": ["Lighter", "MVC", "PHP", "Framework"],
+    "require": {
+        "lighter/framework": "^v0.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fady Elgendy",
+            "email": "fadyelgendy2017@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

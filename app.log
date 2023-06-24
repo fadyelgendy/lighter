@@ -1,0 +1,10 @@
+[2023-06-24 15:06:54] <APP_ENV> ERROR: Exception: ERROR: no route found for /held in C:\xampp\htdocs\lighter\vendor\lighter\framework\src\Router.php:78
+Stack trace:
+#0 C:\xampp\htdocs\lighter\vendor\lighter\framework\src\Application.php(76): Lighter\Framework\Router->redirect('/held', 'GET')
+#1 C:\xampp\htdocs\lighter\public\index.php(9): Lighter\Framework\Application::run()
+#2 {main}
+[2023-06-24 15:06:54] <APP_ENV> ERROR: Exception: ERROR: no route found for /favicon.ico in C:\xampp\htdocs\lighter\vendor\lighter\framework\src\Router.php:78
+Stack trace:
+#0 C:\xampp\htdocs\lighter\vendor\lighter\framework\src\Application.php(76): Lighter\Framework\Router->redirect('/favicon.ico', 'GET')
+#1 C:\xampp\htdocs\lighter\public\index.php(9): Lighter\Framework\Application::run()
+#2 {main}
